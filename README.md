@@ -9,11 +9,14 @@ The Simple Android Text Editor is a modern Android application that leverages th
 - **SAF Integration**: Full integration with Android's Storage Access Framework for seamless opening and saving of files from any supported location.
 - **Dual Editing Modes**: 
   - **Read Mode**: Optimized for viewing, preventing accidental edits.
+  ![Read mode](./read.png)
   - **Edit Mode**: Full text editing capabilities.
+  ![Edit mode](./edit.png)
   - *Safety Feature*: The app blocks transitions from Edit to Read mode if the file contains unsaved changes (dirty state).
 - **Advanced View Modes**:
   - **Horizontal Split View**: Two editors displayed vertically, allowing for simultaneous viewing or editing of two different files.
   - **Diff View**: A vertical, two-row comparison tool that highlights additions and deletions between two files using a custom diffing algorithm.
+  ![Diff view](./diff.png)
 - **Tab Management**:
   - Support for multiple open files.
   - **Quick Cycle**: Horizontal swipe gestures to quickly switch between open tabs in a continuous loop.
